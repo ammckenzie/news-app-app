@@ -1,0 +1,634 @@
+/* line 1, ../scss/style.scss */
+body {
+  background: #ddd;
+}
+
+/* line 5, ../scss/style.scss */
+.divideline {
+  width: 95%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 15px;
+}
+
+/* line 13, ../scss/style.scss */
+.menu {
+  width: 70%;
+  min-height: 100%;
+  /*display:none;*/
+  position: absolute;
+  margin-left: -100%;
+  padding-top: 15px;
+  background: #fff;
+  z-index: 9;
+}
+/* line 23, ../scss/style.scss */
+.menu .done {
+  width: 95%;
+  height: 30px;
+  background-color: #4792D8;
+  border-color: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding-top: 4px;
+  font-size: 16px;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+/* line 37, ../scss/style.scss */
+.menu .tags {
+  width: 95%;
+  height: 30px;
+  background-color: #ddd;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding-top: 4px;
+  padding-right: 15%;
+  font-size: 16px;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  border: 1px solid;
+  border-radius: 0px;
+  border-color: #aaa;
+}
+/* line 53, ../scss/style.scss */
+.menu .tags .tags-add {
+  width: 20px;
+  float: left;
+  background-image: url("../images/add.png");
+  background-size: 100%;
+  height: 20px;
+}
+/* line 60, ../scss/style.scss */
+.menu .tags .tags-minus {
+  width: 15px;
+  float: left;
+  background-image: url("../images/uparrow.png");
+  background-size: 100%;
+  height: 15px;
+  margin-top: 2px;
+}
+/* line 70, ../scss/style.scss */
+.menu .menutags {
+  width: 95%;
+  height: 340px;
+  background-color: #eee;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+/* line 77, ../scss/style.scss */
+.menu .menutags .input-group {
+  width: 95%;
+}
+/* line 81, ../scss/style.scss */
+.menu .menutags .form-control {
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 88, ../scss/style.scss */
+.menu .menutags .input-group .form-control:last-child, .menu .menutags .input-group-addon:last-child, .menu .menutags .input-group-btn:last-child > .btn, .menu .menutags .input-group-btn:last-child > .btn-group > .btn, .menu .menutags .input-group-btn:last-child > .dropdown-toggle, .menu .menutags .input-group-btn:first-child > .btn:not(:first-child), .menu .menutags .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 93, ../scss/style.scss */
+.menu .menutags .input-group .form-control:first-child, .menu .menutags .input-group-addon:first-child, .menu .menutags .input-group-btn:first-child > .btn, .menu .menutags .input-group-btn:first-child > .btn-group > .btn, .menu .menutags .input-group-btn:first-child > .dropdown-toggle, .menu .menutags .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .menu .menutags .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 98, ../scss/style.scss */
+.menu .menutags .singleitem {
+  width: 95%;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 104, ../scss/style.scss */
+.menu .menutags .singleitem .sitename {
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #333;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/* line 113, ../scss/style.scss */
+.menu .menutags .singleitem .onoffswitch {
+  float: right;
+  margin-right: 5px;
+}
+/* line 118, ../scss/style.scss */
+.menu .menutags .singleitem input#toggle {
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+}
+/* line 124, ../scss/style.scss */
+.menu .menutags .singleitem input#toggle + label {
+  display: block;
+  position: relative;
+  box-shadow: inset 0 0 0px 1px #d5d5d5;
+  text-indent: -5000px;
+  height: 25px;
+  width: 50px;
+  border-radius: 15px;
+}
+/* line 134, ../scss/style.scss */
+.menu .menutags .singleitem input#toggle + label:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background: rgba(19, 191, 17, 0);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/* line 149, ../scss/style.scss */
+.menu .menutags .singleitem input#toggle + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/* line 165, ../scss/style.scss */
+.menu .menutags .singleitem input#toggle:checked + label:before {
+  width: 50px;
+  background: #13bf11;
+}
+/* line 170, ../scss/style.scss */
+.menu .menutags .singleitem input#toggle:checked + label:after {
+  left: 30px;
+  box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 179, ../scss/style.scss */
+.menu .sites {
+  width: 95%;
+  height: 30px;
+  background-color: #ddd;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding-top: 4px;
+  padding-right: 15%;
+  font-size: 16px;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  border: 1px solid;
+  border-color: #aaa;
+  border-radius: 0px;
+}
+/* line 195, ../scss/style.scss */
+.menu .sites .sites-add {
+  width: 20px;
+  float: left;
+  background-image: url("../images/add.png");
+  background-size: 100%;
+  height: 20px;
+}
+/* line 203, ../scss/style.scss */
+.menu .sites .sites-minus {
+  width: 15px;
+  float: left;
+  background-image: url("../images/uparrow.png");
+  background-size: 100%;
+  height: 15px;
+  margin-top: 2px;
+}
+/* line 213, ../scss/style.scss */
+.menu .menusites {
+  width: 95%;
+  height: 340px;
+  background-color: #eee;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+/* line 221, ../scss/style.scss */
+.menu .menusites .input-group {
+  width: 95%;
+}
+/* line 225, ../scss/style.scss */
+.menu .menusites .form-control {
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 232, ../scss/style.scss */
+.menu .menusites .input-group .form-control:last-child, .menu .menusites .input-group-addon:last-child, .menu .menusites .input-group-btn:last-child > .btn, .menu .menusites .input-group-btn:last-child > .btn-group > .btn, .menu .menusites .input-group-btn:last-child > .dropdown-toggle, .menu .menusites .input-group-btn:first-child > .btn:not(:first-child), .menu .menusites .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 237, ../scss/style.scss */
+.menu .menusites .input-group .form-control:first-child, .menu .menusites .input-group-addon:first-child, .menu .menusites .input-group-btn:first-child > .btn, .menu .menusites .input-group-btn:first-child > .btn-group > .btn, .menu .menusites .input-group-btn:first-child > .dropdown-toggle, .menu .menusites .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .menu .menusites .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 242, ../scss/style.scss */
+.menu .menusites .singleitem {
+  width: 95%;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 248, ../scss/style.scss */
+.menu .menusites .singleitem .sitename {
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #333;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/* line 257, ../scss/style.scss */
+.menu .menusites .singleitem .onoffswitch {
+  float: right;
+  margin-right: 5px;
+}
+/* line 262, ../scss/style.scss */
+.menu .menusites .singleitem input#toggle {
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+}
+/* line 268, ../scss/style.scss */
+.menu .menusites .singleitem input#toggle + label {
+  display: block;
+  position: relative;
+  box-shadow: inset 0 0 0px 1px #d5d5d5;
+  text-indent: -5000px;
+  height: 25px;
+  width: 50px;
+  border-radius: 15px;
+}
+/* line 278, ../scss/style.scss */
+.menu .menusites .singleitem input#toggle + label:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background: rgba(19, 191, 17, 0);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/* line 293, ../scss/style.scss */
+.menu .menusites .singleitem input#toggle + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/* line 309, ../scss/style.scss */
+.menu .menusites .singleitem input#toggle:checked + label:before {
+  width: 50px;
+  background: #13bf11;
+}
+/* line 314, ../scss/style.scss */
+.menu .menusites .singleitem input#toggle:checked + label:after {
+  left: 30px;
+  box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 324, ../scss/style.scss */
+.menu .loginsmtext {
+  font-size: 14px;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+/* line 332, ../scss/style.scss */
+.menu .smcontainer {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 338, ../scss/style.scss */
+.menu .smicon {
+  width: 35px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+/* line 347, ../scss/style.scss */
+.grayout {
+  width: 100%;
+  min-height: 100%;
+  display: none;
+  position: fixed;
+  background: #000;
+  z-index: 8;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+}
+
+/* Title Bar */
+/* line 359, ../scss/style.scss */
+.titlebar {
+  background: #fff;
+  padding-top: 15px;
+  height: 65px;
+  box-shadow: 0px 1px 1px #888888;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  /* Search Bar */
+  /* expanding input CSS only */
+}
+/* line 368, ../scss/style.scss */
+.titlebar .title {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #222;
+}
+/* line 378, ../scss/style.scss */
+.titlebar .login {
+  width: 30px;
+  margin: 12px 0 0 15px;
+  position: absolute;
+}
+/* line 384, ../scss/style.scss */
+.titlebar .search {
+  width: 30px;
+  position: absolute;
+  right: 0;
+  margin: -27px 10px 0 280px;
+}
+/* line 393, ../scss/style.scss */
+.titlebar .wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 60px;
+  margin-top: -47px;
+  margin-left: 70px;
+  /*border-radius: 5px;*/
+}
+/* line 402, ../scss/style.scss */
+.titlebar #search-text {
+  /*  position: float;
+    bottom: 10px;
+    font-size: 30px;
+    font-family: arial;
+    color: #DDDDDD;*/
+  transition: .45s;
+}
+/* line 411, ../scss/style.scss */
+.titlebar .search-transition {
+  opacity: 0.0;
+}
+/* line 415, ../scss/style.scss */
+.titlebar #slide-left {
+  position: absolute;
+  /*background: #BDB5C2;*/
+  width: 200px;
+  height: 40px;
+  bottom: 10px;
+  /*border-radius: 5px;*/
+  transition: .45s;
+  left: 205px;
+  text-align: center;
+}
+/* line 426, ../scss/style.scss */
+.titlebar .slide-left-secondary {
+  left: 75px !important;
+}
+/* line 429, ../scss/style.scss */
+.titlebar #slide-right {
+  position: absolute;
+  /*background: #F9F7FA;*/
+  width: 200px;
+  height: 40px;
+  bottom: 10px;
+  /*border-radius: 5px;*/
+  transition: .45s;
+  left: 240px;
+  text-align: center;
+  border-left: 1px solid black;
+}
+/* line 441, ../scss/style.scss */
+.titlebar input {
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  width: 150px;
+  height: 25px;
+  font-size: 13px;
+  /*border: none;*/
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #eee !important;
+}
+/* line 454, ../scss/style.scss */
+.titlebar .searchslide {
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  right: 0;
+  width: 25px;
+}
+/* line 462, ../scss/style.scss */
+.titlebar .slid-left {
+  left: 50px !important;
+}
+/* line 465, ../scss/style.scss */
+.titlebar .slid-right {
+  left: 110px !important;
+}
+/* line 470, ../scss/style.scss */
+.titlebar .back {
+  width: 20px;
+  margin: 18px 0 0 10px;
+  position: absolute;
+}
+/* line 476, ../scss/style.scss */
+.titlebar .share {
+  width: 25px;
+  position: absolute;
+  right: 0;
+  margin: -27px 10px 0 280px;
+}
+/* line 486, ../scss/style.scss */
+.titlebar #myInput {
+  width: 30px;
+  -webkit-transition: width 0.3s ease-in-out;
+}
+/* line 490, ../scss/style.scss */
+.titlebar #myInput:focus {
+  width: 100%;
+  -webkit-transition: width 0.5s ease-in-out;
+}
+
+/* line 496, ../scss/style.scss */
+.article-container {
+  padding-top: 65px;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+/* line 500, ../scss/style.scss */
+.article-container a:link {
+  color: #000;
+  text-decoration: none;
+}
+/* line 506, ../scss/style.scss */
+.article-container a:visited {
+  color: #000;
+  text-decoration: none;
+}
+/* line 512, ../scss/style.scss */
+.article-container a:hover {
+  color: #000;
+  text-decoration: none;
+}
+/* line 518, ../scss/style.scss */
+.article-container a:active {
+  color: #000;
+  text-decoration: none;
+}
+/* line 524, ../scss/style.scss */
+.article-container .article-list {
+  height: 100%;
+}
+/* line 527, ../scss/style.scss */
+.article-container .article-list .single {
+  height: 100px;
+  background-color: #fff;
+  margin-top: 5px;
+  box-shadow: 0px 1px 1px #888888;
+}
+/* line 533, ../scss/style.scss */
+.article-container .article-list .single p.articletitle {
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 105px;
+  padding-top: 9px;
+}
+/* line 541, ../scss/style.scss */
+.article-container .article-list .single p.articlebody {
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 105px;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+/* line 550, ../scss/style.scss */
+.article-container .article-list .single p.articlesite {
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 110px;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+/* line 559, ../scss/style.scss */
+.article-container .article-list .single .varible {
+  margin-top: -7px;
+}
+/* line 562, ../scss/style.scss */
+.article-container .article-list .single .variablelist li {
+  display: inline;
+  list-style-type: none;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #aaa;
+  margin-left: 10px;
+  margin-right: 7px;
+  padding-right: 2px;
+}
+/* line 574, ../scss/style.scss */
+.article-container .article-list .single .placeholderimage {
+  width: 90px;
+  height: 90px;
+  background-color: #aaa;
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+}
+
+/* TEST TOGGLE 2 */
+/* line 595, ../scss/style.scss */
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fafafa;
+  border: 1px solid lightgrey;
+  border-radius: 26px;
+  box-shadow: inset 0 0 0 1px lightgrey;
+  cursor: pointer;
+  height: 28px;
+  position: relative;
+  transition: border 0.25s 0.15s, box-shadow 0.25s 0.3s, padding 0.25s;
+  width: 44px;
+  vertical-align: top;
+  float: right;
+  margin-top: 0;
+  /* THE ACTUAL CIRCLE OF THE SWITCH */
+  /* Green Active Area */
+}
+/* line 614, ../scss/style.scss */
+input[type="checkbox"]:after {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 13px;
+  box-shadow: inset 0 -3px 3px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.1);
+  content: '';
+  display: block;
+  height: 26px;
+  left: 0;
+  position: absolute;
+  right: 16px;
+  top: 0;
+  transition: border 0.25s 0.15s, left 0.25s 0.1s, right 0.15s 0.175s;
+}
+/* line 633, ../scss/style.scss */
+input[type="checkbox"]:checked {
+  border-color: #53d76a;
+  background: #53d76a;
+  box-shadow: inset 0 0 0 15px #53d76a;
+  padding-left: 18px;
+  transition: border 0.25s, box-shadow 0.25s, padding 0.25s 0.15s;
+}
+/* line 642, ../scss/style.scss */
+input[type="checkbox"]:checked:after {
+  border-color: #53d76a;
+  left: 16px;
+  right: 0;
+  transition: border 0.25s, left 0.15s 0.25s, right 0.25s 0.175s;
+}
