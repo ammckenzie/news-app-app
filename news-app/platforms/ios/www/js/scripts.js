@@ -1,3 +1,22 @@
+function myCall() {
+        var request = $.ajax({
+            // url: "http://localhost:8888/news-app-app/test.php",
+             url: "http://localhost:8888/news-app-app/rsstest.php",
+            type: "GET",            
+            dataType: "html"
+        });
+
+        request.done(function(msg) {
+            $("#feed_results").html(msg);  
+            // alert(msg);        
+        });
+
+        request.fail(function(jqXHR, textStatus) {
+            alert( "Request failed: " + textStatus );
+        });
+}
+
+
 
 $(document).ready(function() {
 
