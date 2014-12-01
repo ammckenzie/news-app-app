@@ -47,7 +47,7 @@ $(document).ready(function() {
         $('.flyout').click(function() {
         	$('.grayout').fadeIn();
         	$('.menu').animate({left:'100%'});
-        	$('.article-container').css('position','fixed');
+        	$('#site').css('position','fixed');
         });
 
         $('.flyout-done').click(function() {

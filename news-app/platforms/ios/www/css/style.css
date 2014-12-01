@@ -4,6 +4,94 @@ body {
 }
 
 /* line 5, ../scss/style.scss */
+#site_container {
+  width: 100%;
+  padding-top: 75px;
+  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+/* line 10, ../scss/style.scss */
+#site_container a:link {
+  color: #000;
+  text-decoration: none;
+}
+/* line 16, ../scss/style.scss */
+#site_container a:visited {
+  color: #000;
+  text-decoration: none;
+}
+/* line 22, ../scss/style.scss */
+#site_container a:hover {
+  color: #000;
+  text-decoration: none;
+}
+/* line 28, ../scss/style.scss */
+#site_container a:active {
+  color: #000;
+  text-decoration: none;
+}
+/* line 35, ../scss/style.scss */
+#site_container .chunk {
+  /*margin-top:-34px;*/
+  box-shadow: 0px 1px 1px #888888;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin: 0 0 10px 0;
+  /*.col-xs-9 article {
+  	padding-left: 200px;
+  	padding-right: -200px;
+  }*/
+}
+/* line 43, ../scss/style.scss */
+#site_container .chunk .textcontent {
+  width: 100%;
+  margin-top: -5px;
+}
+/* line 48, ../scss/style.scss */
+#site_container .chunk p.articletitle {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 1px;
+}
+/* line 54, ../scss/style.scss */
+#site_container .chunk p.textcontent {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: auto;
+}
+/* line 60, ../scss/style.scss */
+#site_container .chunk p.footnotetext {
+  /*margin-top:-5px;
+  margin-bottom:auto;*/
+}
+/* line 65, ../scss/style.scss */
+#site_container .chunk img {
+  /*float:left;*/
+  width: 80px;
+  min-height: 70px;
+  /*max-height: 80px;*/
+  margin-left: 0px;
+  margin-right: 15px;
+  /*padding-top:5px;*/
+  margin-top: auto;
+  margin-bottom: auto;
+  /*height:auto !important;*/
+  border-radius: 5px;
+}
+/* line 85, ../scss/style.scss */
+#site_container .chunk .article {
+  min-height: 90px;
+  max-height: 200px;
+}
+/* line 91, ../scss/style.scss */
+#site_container .chunk small.footnote {
+  position: absolute;
+  bottom: 8px;
+}
+
+/* line 104, ../scss/style.scss */
 .divideline {
   width: 95%;
   margin: 0 auto;
@@ -12,7 +100,7 @@ body {
   margin-top: 15px;
 }
 
-/* line 13, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 .menu {
   width: 70%;
   min-height: 100%;
@@ -22,8 +110,9 @@ body {
   padding-top: 15px;
   background: #fff;
   z-index: 9;
+  overflow: scroll;
 }
-/* line 23, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 .menu .done {
   width: 95%;
   height: 30px;
@@ -37,7 +126,7 @@ body {
   font-weight: 400;
   color: #FFF;
 }
-/* line 37, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .menu .tags {
   width: 95%;
   height: 30px;
@@ -54,7 +143,7 @@ body {
   border-radius: 0px;
   border-color: #aaa;
 }
-/* line 53, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 .menu .tags .tags-add {
   width: 20px;
   float: left;
@@ -62,7 +151,7 @@ body {
   background-size: 100%;
   height: 20px;
 }
-/* line 60, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .menu .tags .tags-minus {
   width: 15px;
   float: left;
@@ -71,7 +160,7 @@ body {
   height: 15px;
   margin-top: 2px;
 }
-/* line 70, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .menu .menutags {
   width: 95%;
   height: 340px;
@@ -79,34 +168,34 @@ body {
   margin-top: -10px;
   margin-left: 5px;
 }
-/* line 77, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .menu .menutags .input-group {
   width: 95%;
 }
-/* line 81, ../scss/style.scss */
+/* line 182, ../scss/style.scss */
 .menu .menutags .form-control {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 88, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .menu .menutags .input-group .form-control:last-child, .menu .menutags .input-group-addon:last-child, .menu .menutags .input-group-btn:last-child > .btn, .menu .menutags .input-group-btn:last-child > .btn-group > .btn, .menu .menutags .input-group-btn:last-child > .dropdown-toggle, .menu .menutags .input-group-btn:first-child > .btn:not(:first-child), .menu .menutags .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 93, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .menu .menutags .input-group .form-control:first-child, .menu .menutags .input-group-addon:first-child, .menu .menutags .input-group-btn:first-child > .btn, .menu .menutags .input-group-btn:first-child > .btn-group > .btn, .menu .menutags .input-group-btn:first-child > .dropdown-toggle, .menu .menutags .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .menu .menutags .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 98, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .menu .menutags .singleitem {
   width: 95%;
   height: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 104, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .menu .menutags .singleitem .sitename {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -115,18 +204,18 @@ body {
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 113, ../scss/style.scss */
+/* line 214, ../scss/style.scss */
 .menu .menutags .singleitem .onoffswitch {
   float: right;
   margin-right: 5px;
 }
-/* line 118, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .menu .menutags .singleitem input#toggle {
   max-height: 0;
   max-width: 0;
   opacity: 0;
 }
-/* line 124, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .menu .menutags .singleitem input#toggle + label {
   display: block;
   position: relative;
@@ -136,7 +225,7 @@ body {
   width: 50px;
   border-radius: 15px;
 }
-/* line 134, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 .menu .menutags .singleitem input#toggle + label:before {
   content: "";
   position: absolute;
@@ -151,7 +240,7 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 149, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 .menu .menutags .singleitem input#toggle + label:after {
   content: "";
   position: absolute;
@@ -167,17 +256,17 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 165, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .menu .menutags .singleitem input#toggle:checked + label:before {
   width: 50px;
   background: #13bf11;
 }
-/* line 170, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 .menu .menutags .singleitem input#toggle:checked + label:after {
   left: 30px;
   box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* line 179, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 .menu .sites {
   width: 95%;
   height: 30px;
@@ -194,7 +283,7 @@ body {
   border-color: #aaa;
   border-radius: 0px;
 }
-/* line 195, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 .menu .sites .sites-add {
   width: 20px;
   float: left;
@@ -202,7 +291,7 @@ body {
   background-size: 100%;
   height: 20px;
 }
-/* line 203, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .menu .sites .sites-minus {
   width: 15px;
   float: left;
@@ -211,7 +300,7 @@ body {
   height: 15px;
   margin-top: 2px;
 }
-/* line 213, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .menu .menusites {
   width: 95%;
   height: 340px;
@@ -219,34 +308,34 @@ body {
   margin-top: -10px;
   margin-left: 5px;
 }
-/* line 221, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 .menu .menusites .input-group {
   width: 95%;
 }
-/* line 225, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 .menu .menusites .form-control {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 232, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .menu .menusites .input-group .form-control:last-child, .menu .menusites .input-group-addon:last-child, .menu .menusites .input-group-btn:last-child > .btn, .menu .menusites .input-group-btn:last-child > .btn-group > .btn, .menu .menusites .input-group-btn:last-child > .dropdown-toggle, .menu .menusites .input-group-btn:first-child > .btn:not(:first-child), .menu .menusites .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 237, ../scss/style.scss */
+/* line 338, ../scss/style.scss */
 .menu .menusites .input-group .form-control:first-child, .menu .menusites .input-group-addon:first-child, .menu .menusites .input-group-btn:first-child > .btn, .menu .menusites .input-group-btn:first-child > .btn-group > .btn, .menu .menusites .input-group-btn:first-child > .dropdown-toggle, .menu .menusites .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .menu .menusites .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 242, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 .menu .menusites .singleitem {
   width: 95%;
   height: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 248, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 .menu .menusites .singleitem .sitename {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -255,18 +344,18 @@ body {
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 257, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 .menu .menusites .singleitem .onoffswitch {
   float: right;
   margin-right: 5px;
 }
-/* line 262, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .menu .menusites .singleitem input#toggle {
   max-height: 0;
   max-width: 0;
   opacity: 0;
 }
-/* line 268, ../scss/style.scss */
+/* line 369, ../scss/style.scss */
 .menu .menusites .singleitem input#toggle + label {
   display: block;
   position: relative;
@@ -276,7 +365,7 @@ body {
   width: 50px;
   border-radius: 15px;
 }
-/* line 278, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 .menu .menusites .singleitem input#toggle + label:before {
   content: "";
   position: absolute;
@@ -291,7 +380,7 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 293, ../scss/style.scss */
+/* line 394, ../scss/style.scss */
 .menu .menusites .singleitem input#toggle + label:after {
   content: "";
   position: absolute;
@@ -307,17 +396,17 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 309, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 .menu .menusites .singleitem input#toggle:checked + label:before {
   width: 50px;
   background: #13bf11;
 }
-/* line 314, ../scss/style.scss */
+/* line 415, ../scss/style.scss */
 .menu .menusites .singleitem input#toggle:checked + label:after {
   left: 30px;
   box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* line 324, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 .menu .loginsmtext {
   font-size: 14px;
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
@@ -325,20 +414,20 @@ body {
   margin-left: 5px;
   margin-top: 15px;
 }
-/* line 332, ../scss/style.scss */
+/* line 433, ../scss/style.scss */
 .menu .smcontainer {
   width: 100%;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 338, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 .menu .smicon {
   width: 35px;
   margin-right: 2px;
   margin-bottom: 10px;
 }
 
-/* line 347, ../scss/style.scss */
+/* line 448, ../scss/style.scss */
 .grayout {
   width: 100%;
   min-height: 100%;
@@ -352,7 +441,7 @@ body {
 }
 
 /* Title Bar */
-/* line 359, ../scss/style.scss */
+/* line 460, ../scss/style.scss */
 .titlebar {
   background: #fff;
   padding-top: 15px;
@@ -364,7 +453,7 @@ body {
   /* Search Bar */
   /* expanding input CSS only */
 }
-/* line 368, ../scss/style.scss */
+/* line 469, ../scss/style.scss */
 .titlebar .title {
   font-size: 19px;
   font-weight: bold;
@@ -374,20 +463,20 @@ body {
   font-weight: 400;
   color: #222;
 }
-/* line 378, ../scss/style.scss */
+/* line 479, ../scss/style.scss */
 .titlebar .login {
   width: 30px;
   margin: 12px 0 0 15px;
   position: absolute;
 }
-/* line 384, ../scss/style.scss */
+/* line 485, ../scss/style.scss */
 .titlebar .search {
   width: 30px;
   position: absolute;
   right: 0;
   margin: -27px 10px 0 280px;
 }
-/* line 393, ../scss/style.scss */
+/* line 494, ../scss/style.scss */
 .titlebar .wrapper {
   position: relative;
   overflow: hidden;
@@ -397,7 +486,7 @@ body {
   margin-left: 70px;
   /*border-radius: 5px;*/
 }
-/* line 402, ../scss/style.scss */
+/* line 503, ../scss/style.scss */
 .titlebar #search-text {
   /*  position: float;
     bottom: 10px;
@@ -406,11 +495,11 @@ body {
     color: #DDDDDD;*/
   transition: .45s;
 }
-/* line 411, ../scss/style.scss */
+/* line 512, ../scss/style.scss */
 .titlebar .search-transition {
   opacity: 0.0;
 }
-/* line 415, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 .titlebar #slide-left {
   position: absolute;
   /*background: #BDB5C2;*/
@@ -422,11 +511,11 @@ body {
   left: 205px;
   text-align: center;
 }
-/* line 426, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 .titlebar .slide-left-secondary {
   left: 75px !important;
 }
-/* line 429, ../scss/style.scss */
+/* line 530, ../scss/style.scss */
 .titlebar #slide-right {
   position: absolute;
   /*background: #F9F7FA;*/
@@ -439,7 +528,7 @@ body {
   text-align: center;
   border-left: 1px solid black;
 }
-/* line 441, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 .titlebar input {
   position: absolute;
   left: 35px;
@@ -452,7 +541,7 @@ body {
   border-width: 1px;
   border-color: #eee !important;
 }
-/* line 454, ../scss/style.scss */
+/* line 555, ../scss/style.scss */
 .titlebar .searchslide {
   position: absolute;
   left: 5px;
@@ -460,39 +549,39 @@ body {
   right: 0;
   width: 25px;
 }
-/* line 462, ../scss/style.scss */
+/* line 563, ../scss/style.scss */
 .titlebar .slid-left {
   left: 50px !important;
 }
-/* line 465, ../scss/style.scss */
+/* line 566, ../scss/style.scss */
 .titlebar .slid-right {
   left: 110px !important;
 }
-/* line 470, ../scss/style.scss */
+/* line 571, ../scss/style.scss */
 .titlebar .back {
   width: 20px;
   margin: 18px 0 0 10px;
   position: absolute;
 }
-/* line 476, ../scss/style.scss */
+/* line 577, ../scss/style.scss */
 .titlebar .share {
   width: 25px;
   position: absolute;
   right: 0;
   margin: -27px 10px 0 280px;
 }
-/* line 486, ../scss/style.scss */
+/* line 587, ../scss/style.scss */
 .titlebar #myInput {
   width: 30px;
   -webkit-transition: width 0.3s ease-in-out;
 }
-/* line 490, ../scss/style.scss */
+/* line 591, ../scss/style.scss */
 .titlebar #myInput:focus {
   width: 100%;
   -webkit-transition: width 0.5s ease-in-out;
 }
 
-/* line 496, ../scss/style.scss */
+/* line 597, ../scss/style.scss */
 .article-container {
   padding-top: 65px;
   /* unvisited link */
@@ -500,91 +589,89 @@ body {
   /* mouse over link */
   /* selected link */
 }
-/* line 500, ../scss/style.scss */
+/* line 601, ../scss/style.scss */
 .article-container a:link {
   color: #000;
   text-decoration: none;
 }
-/* line 506, ../scss/style.scss */
+/* line 607, ../scss/style.scss */
 .article-container a:visited {
   color: #000;
   text-decoration: none;
 }
-/* line 512, ../scss/style.scss */
+/* line 613, ../scss/style.scss */
 .article-container a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 518, ../scss/style.scss */
+/* line 619, ../scss/style.scss */
 .article-container a:active {
   color: #000;
   text-decoration: none;
 }
-/* line 524, ../scss/style.scss */
+/* line 625, ../scss/style.scss */
 .article-container .article-list {
   height: 100%;
-}
-/* line 527, ../scss/style.scss */
-.article-container .article-list .single {
-  height: 100px;
-  background-color: #fff;
-  margin-top: 5px;
-  box-shadow: 0px 1px 1px #888888;
-}
-/* line 533, ../scss/style.scss */
-.article-container .article-list .single p.articletitle {
-  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 105px;
-  padding-top: 9px;
-}
-/* line 541, ../scss/style.scss */
-.article-container .article-list .single p.articlebody {
-  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  margin-left: 105px;
-  margin-right: 10px;
-  margin-top: -3px;
-}
-/* line 550, ../scss/style.scss */
-.article-container .article-list .single p.articlesite {
-  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  margin-left: 110px;
-  margin-right: 10px;
-  margin-top: -3px;
-}
-/* line 559, ../scss/style.scss */
-.article-container .article-list .single .varible {
-  margin-top: -7px;
-}
-/* line 562, ../scss/style.scss */
-.article-container .article-list .single .variablelist li {
-  display: inline;
-  list-style-type: none;
-  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  color: #aaa;
-  margin-left: 10px;
-  margin-right: 7px;
-  padding-right: 2px;
-}
-/* line 574, ../scss/style.scss */
-.article-container .article-list .single .placeholderimage {
-  width: 90px;
-  height: 90px;
-  background-color: #aaa;
-  margin-left: 5px;
-  margin-top: 5px;
-  float: left;
+  		/*.single {
+  			height:100px;
+  			background-color:#fff;
+  			margin-top:5px;
+  			box-shadow: 0px 1px 1px #888888;
+  
+  			p.articletitle{
+  			font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  			font-weight: 500;
+  			font-size: 15px;
+  			margin-left: 105px;
+  			padding-top: 9px;
+  			}
+  
+  			p.articlebody{
+  			font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  			font-weight: 400;
+  			font-size: 13px;
+  			margin-left: 105px;
+  			margin-right:10px;
+  			margin-top: -3px;
+  			}
+  
+  			p.articlesite{
+  			font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  			font-weight: 400;
+  			font-size: 13px;
+  			margin-left: 110px;
+  			margin-right:10px;
+  			margin-top: -3px;
+  			}
+  
+  			.varible{
+  				margin-top:-7px;
+  			}
+  			.variablelist li{
+  			display: inline;
+  			list-style-type: none;
+  			font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  			font-weight: 400;
+  			font-size:13px;
+  			color:#aaa;
+  			margin-left: 10px;
+  			margin-right:7px;
+  			padding-right: 2px;
+  			}
+  
+  			.placeholderimage {
+  			width:90px;
+  			height:90px;
+  			background-color:#aaa;
+  			margin-left: 5px;
+  			margin-top: 5px;
+  			float:left;
+  			}	
+  		}*/
 }
 
 /* TEST TOGGLE 2 */
-/* line 595, ../scss/style.scss */
+/* line 696, ../scss/style.scss */
 input[type="checkbox"] {
   appearance: none;
   background-color: #fafafa;
@@ -602,7 +689,7 @@ input[type="checkbox"] {
   /* THE ACTUAL CIRCLE OF THE SWITCH */
   /* Green Active Area */
 }
-/* line 614, ../scss/style.scss */
+/* line 715, ../scss/style.scss */
 input[type="checkbox"]:after {
   background-color: white;
   border: 1px solid lightgrey;
@@ -617,7 +704,7 @@ input[type="checkbox"]:after {
   top: 0;
   transition: border 0.25s 0.15s, left 0.25s 0.1s, right 0.15s 0.175s;
 }
-/* line 633, ../scss/style.scss */
+/* line 734, ../scss/style.scss */
 input[type="checkbox"]:checked {
   border-color: #53d76a;
   background: #53d76a;
@@ -625,7 +712,7 @@ input[type="checkbox"]:checked {
   padding-left: 18px;
   transition: border 0.25s, box-shadow 0.25s, padding 0.25s 0.15s;
 }
-/* line 642, ../scss/style.scss */
+/* line 743, ../scss/style.scss */
 input[type="checkbox"]:checked:after {
   border-color: #53d76a;
   left: 16px;
