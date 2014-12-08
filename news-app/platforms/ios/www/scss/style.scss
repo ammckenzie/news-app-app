@@ -2,6 +2,100 @@ body {
 	background:#ddd;
 }
 
+.article-iframe {
+	position: absolute;
+	z-index: 9999999999999;
+	width:100px;
+	height:100px;
+}
+
+.loginscreen{
+	width:100%;
+	height:100%;
+	background: url("/Users/angelamckenzie/Documents/Sites/news-app-app/news-app-app/news-app/platforms/ios/www/images/9-1fit.png") no-repeat center center fixed;
+	/*background-color:red;*/
+	z-index:9;
+	position:fixed;
+
+/*	img{
+		width:100%;
+		z-index:-99;
+		position:absolute;
+	}*/
+
+	.logincontent{
+		width:100%;
+
+		img{
+			margin-left:25%;
+			margin-top:150px;
+		}
+
+
+		p.logtext{
+			font-family:'Avenir Next', Helvetica, Arial, sans-serif;
+			font-weight: 300;
+			color:#FFF;
+			margin-left:25%;
+			margin-top:25px;
+		}
+
+		p.logtext2{
+			font-family:'Avenir Next', Helvetica, Arial, sans-serif;
+			font-weight: 400;
+			color:#FFF;
+		}
+
+		.fbbutton{
+		width:80%;
+		height:30px;
+		background-color:#4792D8;
+		border-color: none;
+		margin-top:60px;
+		margin-left:10%;
+		padding-top:4px;
+		font-size: 15px;
+		font-family:'Avenir Next', Helvetica, Arial, sans-serif;
+		font-weight: 300;
+		color:#FFF;
+ 	}
+
+
+ 	.gbutton{
+		width:80%;
+		height:30px;
+		background-color:#c03929;
+		border-color: #a42113;
+		margin-top:5px;
+		margin-left:10%;
+		padding-top:4px;
+		font-size: 15px;
+		font-family:'Avenir Next', Helvetica, Arial, sans-serif;
+		font-weight: 300;
+		color:#FFF;
+ 	}
+
+
+
+ 	.embutton{
+		width:80%;
+		height:30px;
+		background-color:#eee;
+		border-color: #ccc;
+		margin-top:5px;
+		margin-left:10%;
+		padding-top:4px;
+		font-size: 15px;
+		font-family:'Avenir Next', Helvetica, Arial, sans-serif;
+		font-weight: 300;
+		color:#888;
+ 	}
+
+
+	}
+
+}
+
 #site_container{
 	width:100%;
 	padding-top: 75px;
@@ -39,6 +133,10 @@ body {
 			padding-right:20px;
 			margin:0 0 10px 0;
 
+			.article-image {
+				margin-left:-10px
+			}
+
 
 		.textcontent{
 			width:100%;
@@ -49,6 +147,7 @@ body {
 			font-weight: 500;
 			font-size: 14px;
 			margin-top:1px;
+			margin-left:20px
 			}
 
 		p.textcontent{
@@ -58,8 +157,7 @@ body {
 			}
 
 		p.footnotetext{
-			/*margin-top:-5px;
-			margin-bottom:auto;*/
+			margin-left:20px
 		}
 
 		img{
