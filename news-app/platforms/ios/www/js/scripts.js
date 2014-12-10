@@ -1,4 +1,5 @@
 // IOS SPECIFIC
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -31,26 +32,42 @@ var app = {
     }
 };
 
-app.initialize();
 
 function onLoad() {
-    document.addEventListener("online", onOnline, false);
-    document.addEventListener("offline", onOffline, false);
-    document.addEventListener("deviceready", onDeviceReady, false);
-}
+        document.addEventListener("online", onOnline, false);
+        document.addEventListener("offline", onOffline, false);
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
 
-// Cordova is loaded and it is now safe to make calls Cordova methods
-function onDeviceReady() {
-    console.log("onDeviceReady");
-}
+    // Cordova is loaded and it is now safe to make calls Cordova methods
+    //
+    function onDeviceReady() {
+        console.log("onDeviceReady");
+    }
 
-// Handle the online event
-function onOnline() {
-    console.log("onOnline");
-}
-function onOffline() {
-    console.log("onOffline");
-}
+    // Handle the online event
+    //
+    function onOnline() {
+        console.log("onOnline");
+    }
+
+    function onOffline() {
+        console.log("onOffline");
+    }
+    
+    // Check if phone is connected to www
+    function onOnline() {
+        console.log("onOnline");
+        alert("onOnline");
+    }
+    function onOffline() {
+        console.log("onOffline");
+        alert("onOffline");
+    }
+
+
+
+app.initialize();
 
 
 
@@ -80,6 +97,8 @@ function myCall() {
 
 // All Other Stuff that fires when the page loads
 $(document).ready(function() {
+
+
 
 		/* Show Menu Tags */
         $('#showmenutags').click(function() {
@@ -117,7 +136,7 @@ $(document).ready(function() {
 
         $('.flyout').click(function() {
         	$('.grayout').fadeIn();
-        	$('.menu').animate({left:'100%'});
+       	$('.menu').animate({left:'100%'});
         	$('#site').css('position','fixed');
         });
 
