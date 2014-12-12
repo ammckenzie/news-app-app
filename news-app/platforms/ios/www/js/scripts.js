@@ -136,13 +136,13 @@ $(document).ready(function() {
 
         $('.flyout').click(function() {
         	$('.grayout').fadeIn();
-       	$('.menu').animate({left:'100%'});
+       	$('.flyoutmenu').animate({left:'100%'});
         	$('#site').css('position','fixed');
         });
 
         $('.flyout-done').click(function() {
         	$('.grayout').fadeOut();
-        	$('.menu').animate({left:'-100%'});
+        	$('.flyoutmenu').animate({left:'-100%'});
         	$('.menutags').slideUp();
         	$('.menusites').slideUp();
         	$('.article-container').css('position','relative');
