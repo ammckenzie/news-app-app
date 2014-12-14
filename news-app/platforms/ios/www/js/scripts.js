@@ -84,7 +84,7 @@ function myCall() {
         request.done(function(msg) {
             $("#feed_results").html(msg);  
             // alert(msg);       
-            $('.loading').css('display','none'); 
+            $('.loading').hide(); 
         });
 
         request.fail(function(jqXHR, textStatus) {
