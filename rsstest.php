@@ -111,7 +111,7 @@ function shorten($string, $length)
 					<div class="textcontent">
 				
 					<p class="articletitle">
-						<a href="<?php echo $item->get_permalink(); ?>" onclick="window.open('<?php echo $item->get_permalink(); ?>', '_blank', 'location=yes');">
+						<a href="#" onclick="window.open('<?php echo $item->get_permalink(); ?>', '_blank', 'location=yes');">
 					<?php 
 
 					$full_title = strlen($item->get_title());
