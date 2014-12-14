@@ -137,8 +137,8 @@ $(document).ready(function() {
 
         $('.flyout').click(function() {
         	$('.grayout').fadeIn();
-       	$('.flyoutmenu').animate({left:'100%'});
-        	$('#site').css('position','fixed');
+       	    $('.flyoutmenu').animate({left:'100%'});
+        	//$('#site').css('position','fixed');
         });
 
         $('.flyout-done').click(function() {
