@@ -83,7 +83,8 @@ function myCall() {
 
         request.done(function(msg) {
             $("#feed_results").html(msg);  
-            // alert(msg);        
+            // alert(msg);       
+            $('.loading').css('display','none'); 
         });
 
         request.fail(function(jqXHR, textStatus) {
