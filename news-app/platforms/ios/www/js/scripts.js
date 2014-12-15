@@ -156,6 +156,7 @@ $(document).ready(function() {
         	$('.article-container').css('position','relative');
             $('.sites-add').removeClass('sites-minus');
             $('.tags-add').removeClass('tags-minus');
+            $('#feed_results').css('position','relative');
             reviewChecks();
        });
 
