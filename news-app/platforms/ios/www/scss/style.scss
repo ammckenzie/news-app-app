@@ -1,5 +1,26 @@
+html {
+	overflow: scroll !important;
+}
+
 body {
 	background:#ddd;
+}
+
+.loading {
+	background-image: url('../img/loading.gif');
+	background-color: rgba(0,0,0,0.8);
+	background-size: cover;
+	width:100px;
+	height:100px;
+	top:40%;
+	left:35%;
+	border-radius: 20px;
+	box-shadow:1px 1px 5px #000;
+	position: absolute;
+	z-index: 999999;
+	color:#fff;
+	text-align: center;
+
 }
 
 .article-iframe {

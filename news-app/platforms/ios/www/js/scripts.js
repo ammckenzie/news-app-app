@@ -83,7 +83,8 @@ function myCall() {
 
         request.done(function(msg) {
             $("#feed_results").html(msg);  
-            // alert(msg);        
+            // alert(msg);       
+            $('.loading').hide(); 
         });
 
         request.fail(function(jqXHR, textStatus) {
@@ -92,6 +93,13 @@ function myCall() {
 }
 
 
+function reviewChecks() {
+    if ($('#cbox1').is(':checked')) {
+        alert('cbox 1 checked');
+    } else {
+        alert('cbox 1 not checked');
+    } // Boolean true
+}
 
 
 
@@ -136,8 +144,8 @@ $(document).ready(function() {
 
         $('.flyout').click(function() {
         	$('.grayout').fadeIn();
-       	$('.flyoutmenu').animate({left:'100%'});
-        	$('#site').css('position','fixed');
+       	    $('.flyoutmenu').animate({left:'100%'});
+        	//$('#site').css('position','fixed');
         });
 
         $('.flyout-done').click(function() {
@@ -148,6 +156,7 @@ $(document).ready(function() {
         	$('.article-container').css('position','relative');
             $('.sites-add').removeClass('sites-minus');
             $('.tags-add').removeClass('tags-minus');
+            reviewChecks();
        });
 
 
@@ -181,3 +190,4 @@ $(document).ready(function() {
             $('#search-text').addClass('search-transition');
     };
 });
+
