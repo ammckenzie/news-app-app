@@ -18,7 +18,7 @@
 
 	<body onload="myCall();">
 
-		<div class="loading">Loading...</div>
+		<div class="loading"><div class="loadingtext">Loading...</div></div>
 
 
 		<div class="flyoutmenu">
@@ -74,7 +74,7 @@
 				<li class="item item-toggle">
      Arts
      <label class="toggle toggle-positive">
-       <input type="checkbox">
+       <input type="checkbox" id="tag1">
        <div class="track">
          <div class="handle"></div>
        </div>
@@ -84,7 +84,7 @@
    <li class="item item-toggle">
      Technology
      <label class="toggle toggle-positive">
-       <input type="checkbox">
+       <input type="checkbox" id="tag2">
        <div class="track">
          <div class="handle"></div>
        </div>
@@ -111,10 +111,15 @@
 
 		</div>
 
+
+
+
 		<div id="feed_results">
 
 		</div>
-		<!-- <div onclick="loadMoreFeedItems();">Load More</div> -->
+		<button class="btn btn-primary btn-sm refresh-button">
+			<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+		</button>
 	</div>
 
 		<script src="js/jquery-2.1.1.min.js"></script>

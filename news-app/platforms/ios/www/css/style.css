@@ -20,11 +20,16 @@ body {
 }
 
 /* line 19, ../scss/style.scss */
+.refresh-button {
+  display: none;
+}
+
+/* line 23, ../scss/style.scss */
 button, input, select, textarea {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
 }
 
-/* line 23, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 .loading {
   background-image: url("../img/loading.gif");
   background-color: rgba(0, 0, 0, 0.8);
@@ -40,8 +45,12 @@ button, input, select, textarea {
   color: #fff;
   text-align: center;
 }
+/* line 42, ../scss/style.scss */
+.loading .loadingtext {
+  margin-top: 10px;
+}
 
-/* line 39, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .item {
   width: 100%;
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
@@ -53,12 +62,12 @@ button, input, select, textarea {
   /*	text-overflow: ellipsis;*/
 }
 
-/* line 50, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .toggle {
   margin-right: -10px;
 }
 
-/* line 54, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .article-iframe {
   position: absolute;
   z-index: 9999999999999;
@@ -66,7 +75,7 @@ button, input, select, textarea {
   height: 100px;
 }
 
-/* line 61, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .loginscreen {
   width: 100%;
   height: 100%;
@@ -80,16 +89,16 @@ button, input, select, textarea {
   		position:absolute;
   	}*/
 }
-/* line 75, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .loginscreen .logincontent {
   width: 100%;
 }
-/* line 78, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 .loginscreen .logincontent img {
   margin-left: 25%;
   margin-top: 150px;
 }
-/* line 84, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 .loginscreen .logincontent p.logtext {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -97,13 +106,13 @@ button, input, select, textarea {
   margin-left: 25%;
   margin-top: 25px;
 }
-/* line 92, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .loginscreen .logincontent p.logtext2 {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #FFF;
 }
-/* line 98, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .loginscreen .logincontent .fbbutton {
   width: 80%;
   height: 30px;
@@ -117,7 +126,7 @@ button, input, select, textarea {
   font-weight: 300;
   color: #FFF;
 }
-/* line 113, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .loginscreen .logincontent .gbutton {
   width: 80%;
   height: 30px;
@@ -131,7 +140,7 @@ button, input, select, textarea {
   font-weight: 300;
   color: #FFF;
 }
-/* line 129, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .loginscreen .logincontent .embutton {
   width: 80%;
   height: 30px;
@@ -146,7 +155,7 @@ button, input, select, textarea {
   color: #888;
 }
 
-/* line 148, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 #site_container {
   width: 100%;
   padding-top: 70px;
@@ -155,27 +164,27 @@ button, input, select, textarea {
   /* mouse over link */
   /* selected link */
 }
-/* line 153, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 #site_container a:link {
   color: #000;
   text-decoration: none;
 }
-/* line 159, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 #site_container a:visited {
   color: #000;
   text-decoration: none;
 }
-/* line 165, ../scss/style.scss */
+/* line 174, ../scss/style.scss */
 #site_container a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 171, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 #site_container a:active {
   color: #000;
   text-decoration: none;
 }
-/* line 178, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 #site_container .chunk {
   /*margin-top:-34px;*/
   box-shadow: 0px 1px 1px #888888;
@@ -187,33 +196,33 @@ button, input, select, textarea {
   	padding-right: -200px;
   }*/
 }
-/* line 185, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 #site_container .chunk .article-image {
   margin-left: -10px;
 }
-/* line 190, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 #site_container .chunk .textcontent {
   width: 100%;
   margin-top: -5px;
 }
-/* line 195, ../scss/style.scss */
+/* line 204, ../scss/style.scss */
 #site_container .chunk p.articletitle {
   font-weight: 500;
   font-size: 14px;
   margin-top: 5px;
   margin-left: 35px;
 }
-/* line 203, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 #site_container .chunk p.textcontent {
   font-weight: 400;
   font-size: 13px;
   margin-top: auto;
 }
-/* line 209, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 #site_container .chunk p.footnotetext {
   margin-left: 35px;
 }
-/* line 214, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 #site_container .chunk img {
   /*float:left;*/
   width: 90px;
@@ -227,18 +236,18 @@ button, input, select, textarea {
   /*height:auto !important;*/
   border-radius: 5px;
 }
-/* line 234, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 #site_container .chunk .article {
   height: 90px;
 }
-/* line 239, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 #site_container .chunk small.footnote {
   position: absolute;
   bottom: -10px;
   /*margin-top:50px;*/
 }
 
-/* line 253, ../scss/style.scss */
+/* line 262, ../scss/style.scss */
 .divideline {
   width: 95%;
   margin: 0 auto;
@@ -247,7 +256,7 @@ button, input, select, textarea {
   margin-top: 15px;
 }
 
-/* line 261, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 .flyoutmenu {
   width: 70%;
   min-height: 100%;
@@ -259,7 +268,7 @@ button, input, select, textarea {
   z-index: 9;
   overflow: scroll;
 }
-/* line 273, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 .flyoutmenu .done {
   width: 95%;
   height: 30px;
@@ -273,7 +282,7 @@ button, input, select, textarea {
   font-weight: 400;
   color: #FFF;
 }
-/* line 287, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 .flyoutmenu .tags {
   width: 95%;
   height: 30px;
@@ -290,7 +299,7 @@ button, input, select, textarea {
   border-radius: 0px;
   border-color: #aaa;
 }
-/* line 303, ../scss/style.scss */
+/* line 312, ../scss/style.scss */
 .flyoutmenu .tags .tags-add {
   width: 20px;
   float: left;
@@ -298,7 +307,7 @@ button, input, select, textarea {
   background-size: 100%;
   height: 20px;
 }
-/* line 310, ../scss/style.scss */
+/* line 319, ../scss/style.scss */
 .flyoutmenu .tags .tags-minus {
   width: 15px;
   float: left;
@@ -307,7 +316,7 @@ button, input, select, textarea {
   height: 15px;
   margin-top: 2px;
 }
-/* line 320, ../scss/style.scss */
+/* line 329, ../scss/style.scss */
 .flyoutmenu .menutags {
   width: 95%;
   height: 100px;
@@ -315,34 +324,34 @@ button, input, select, textarea {
   margin-top: -10px;
   margin-left: 5px;
 }
-/* line 327, ../scss/style.scss */
+/* line 336, ../scss/style.scss */
 .flyoutmenu .menutags .input-group {
   width: 95%;
 }
-/* line 331, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 .flyoutmenu .menutags .form-control {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 338, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 .flyoutmenu .menutags .input-group .form-control:last-child, .flyoutmenu .menutags .input-group-addon:last-child, .flyoutmenu .menutags .input-group-btn:last-child > .btn, .flyoutmenu .menutags .input-group-btn:last-child > .btn-group > .btn, .flyoutmenu .menutags .input-group-btn:last-child > .dropdown-toggle, .flyoutmenu .menutags .input-group-btn:first-child > .btn:not(:first-child), .flyoutmenu .menutags .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 343, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .flyoutmenu .menutags .input-group .form-control:first-child, .flyoutmenu .menutags .input-group-addon:first-child, .flyoutmenu .menutags .input-group-btn:first-child > .btn, .flyoutmenu .menutags .input-group-btn:first-child > .btn-group > .btn, .flyoutmenu .menutags .input-group-btn:first-child > .dropdown-toggle, .flyoutmenu .menutags .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .flyoutmenu .menutags .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 348, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem {
   width: 95%;
   height: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 354, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem .sitename {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -351,18 +360,18 @@ button, input, select, textarea {
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 363, ../scss/style.scss */
+/* line 372, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem .onoffswitch {
   float: right;
   margin-right: 5px;
 }
-/* line 368, ../scss/style.scss */
+/* line 377, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle {
   max-height: 0;
   max-width: 0;
   opacity: 0;
 }
-/* line 374, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle + label {
   display: block;
   position: relative;
@@ -372,7 +381,7 @@ button, input, select, textarea {
   width: 50px;
   border-radius: 15px;
 }
-/* line 384, ../scss/style.scss */
+/* line 393, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle + label:before {
   content: "";
   position: absolute;
@@ -387,7 +396,7 @@ button, input, select, textarea {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 399, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle + label:after {
   content: "";
   position: absolute;
@@ -403,17 +412,17 @@ button, input, select, textarea {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 415, ../scss/style.scss */
+/* line 424, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle:checked + label:before {
   width: 50px;
   background: #13bf11;
 }
-/* line 420, ../scss/style.scss */
+/* line 429, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle:checked + label:after {
   left: 30px;
   box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* line 429, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 .flyoutmenu .sites {
   width: 95%;
   height: 30px;
@@ -430,7 +439,7 @@ button, input, select, textarea {
   border-color: #aaa;
   border-radius: 0px;
 }
-/* line 445, ../scss/style.scss */
+/* line 454, ../scss/style.scss */
 .flyoutmenu .sites .sites-add {
   width: 20px;
   float: left;
@@ -438,7 +447,7 @@ button, input, select, textarea {
   background-size: 100%;
   height: 20px;
 }
-/* line 453, ../scss/style.scss */
+/* line 462, ../scss/style.scss */
 .flyoutmenu .sites .sites-minus {
   width: 15px;
   float: left;
@@ -447,7 +456,7 @@ button, input, select, textarea {
   height: 15px;
   margin-top: 2px;
 }
-/* line 463, ../scss/style.scss */
+/* line 472, ../scss/style.scss */
 .flyoutmenu .menusites {
   width: 95%;
   height: 100px;
@@ -455,34 +464,34 @@ button, input, select, textarea {
   margin-top: -10px;
   margin-left: 5px;
 }
-/* line 471, ../scss/style.scss */
+/* line 480, ../scss/style.scss */
 .flyoutmenu .menusites .input-group {
   width: 95%;
 }
-/* line 475, ../scss/style.scss */
+/* line 484, ../scss/style.scss */
 .flyoutmenu .menusites .form-control {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 482, ../scss/style.scss */
+/* line 491, ../scss/style.scss */
 .flyoutmenu .menusites .input-group .form-control:last-child, .flyoutmenu .menusites .input-group-addon:last-child, .flyoutmenu .menusites .input-group-btn:last-child > .btn, .flyoutmenu .menusites .input-group-btn:last-child > .btn-group > .btn, .flyoutmenu .menusites .input-group-btn:last-child > .dropdown-toggle, .flyoutmenu .menusites .input-group-btn:first-child > .btn:not(:first-child), .flyoutmenu .menusites .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 487, ../scss/style.scss */
+/* line 496, ../scss/style.scss */
 .flyoutmenu .menusites .input-group .form-control:first-child, .flyoutmenu .menusites .input-group-addon:first-child, .flyoutmenu .menusites .input-group-btn:first-child > .btn, .flyoutmenu .menusites .input-group-btn:first-child > .btn-group > .btn, .flyoutmenu .menusites .input-group-btn:first-child > .dropdown-toggle, .flyoutmenu .menusites .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .flyoutmenu .menusites .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 492, ../scss/style.scss */
+/* line 501, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem {
   width: 95%;
   height: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 498, ../scss/style.scss */
+/* line 507, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem .sitename {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -491,18 +500,18 @@ button, input, select, textarea {
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 507, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem .onoffswitch {
   float: right;
   margin-right: 5px;
 }
-/* line 512, ../scss/style.scss */
+/* line 521, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle {
   max-height: 0;
   max-width: 0;
   opacity: 0;
 }
-/* line 518, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle + label {
   display: block;
   position: relative;
@@ -512,7 +521,7 @@ button, input, select, textarea {
   width: 50px;
   border-radius: 15px;
 }
-/* line 528, ../scss/style.scss */
+/* line 537, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle + label:before {
   content: "";
   position: absolute;
@@ -527,7 +536,7 @@ button, input, select, textarea {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 543, ../scss/style.scss */
+/* line 552, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle + label:after {
   content: "";
   position: absolute;
@@ -543,17 +552,17 @@ button, input, select, textarea {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-/* line 559, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle:checked + label:before {
   width: 50px;
   background: #13bf11;
 }
-/* line 564, ../scss/style.scss */
+/* line 573, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle:checked + label:after {
   left: 30px;
   box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* line 574, ../scss/style.scss */
+/* line 583, ../scss/style.scss */
 .flyoutmenu .loginsmtext {
   font-size: 14px;
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
@@ -561,20 +570,20 @@ button, input, select, textarea {
   margin-left: 5px;
   margin-top: 15px;
 }
-/* line 582, ../scss/style.scss */
+/* line 591, ../scss/style.scss */
 .flyoutmenu .smcontainer {
   width: 100%;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 588, ../scss/style.scss */
+/* line 597, ../scss/style.scss */
 .flyoutmenu .smicon {
   width: 35px;
   margin-right: 2px;
   margin-bottom: 10px;
 }
 
-/* line 597, ../scss/style.scss */
+/* line 606, ../scss/style.scss */
 .grayout {
   width: 100%;
   min-height: 100%;
@@ -588,7 +597,7 @@ button, input, select, textarea {
 }
 
 /* Title Bar */
-/* line 609, ../scss/style.scss */
+/* line 618, ../scss/style.scss */
 .titlebar {
   background: #fff;
   padding-top: 15px;
@@ -614,7 +623,7 @@ button, input, select, textarea {
   					}*/
   /* expanding input CSS only */
 }
-/* line 618, ../scss/style.scss */
+/* line 627, ../scss/style.scss */
 .titlebar .title {
   font-size: 22px;
   text-align: center;
@@ -623,20 +632,20 @@ button, input, select, textarea {
   font-weight: 200;
   color: #000;
 }
-/* line 627, ../scss/style.scss */
+/* line 636, ../scss/style.scss */
 .titlebar .login {
   width: 28px;
   margin: 13px 0 0 15px;
   position: absolute;
 }
-/* line 633, ../scss/style.scss */
+/* line 642, ../scss/style.scss */
 .titlebar .search {
   width: 25px;
   position: absolute;
   right: 0;
   margin: -24px 12px 0 280px;
 }
-/* line 642, ../scss/style.scss */
+/* line 651, ../scss/style.scss */
 .titlebar .wrapper {
   position: relative;
   overflow: hidden;
@@ -646,7 +655,7 @@ button, input, select, textarea {
   margin-left: 70px;
   /*border-radius: 5px;*/
 }
-/* line 651, ../scss/style.scss */
+/* line 660, ../scss/style.scss */
 .titlebar #search-text {
   /*  position: float;
     bottom: 10px;
@@ -655,11 +664,11 @@ button, input, select, textarea {
     color: #DDDDDD;*/
   transition: .45s;
 }
-/* line 660, ../scss/style.scss */
+/* line 669, ../scss/style.scss */
 .titlebar .search-transition {
   opacity: 0.0;
 }
-/* line 664, ../scss/style.scss */
+/* line 673, ../scss/style.scss */
 .titlebar #slide-left {
   position: absolute;
   /*background: #BDB5C2;*/
@@ -671,11 +680,11 @@ button, input, select, textarea {
   left: 205px;
   text-align: center;
 }
-/* line 675, ../scss/style.scss */
+/* line 684, ../scss/style.scss */
 .titlebar .slide-left-secondary {
   left: 75px !important;
 }
-/* line 678, ../scss/style.scss */
+/* line 687, ../scss/style.scss */
 .titlebar #slide-right {
   position: absolute;
   /*background: #F9F7FA;*/
@@ -688,7 +697,7 @@ button, input, select, textarea {
   text-align: center;
   border-left: 1px solid black;
 }
-/* line 690, ../scss/style.scss */
+/* line 699, ../scss/style.scss */
 .titlebar input {
   position: absolute;
   left: 35px;
@@ -701,31 +710,31 @@ button, input, select, textarea {
   border-width: 1px;
   border-color: #eee !important;
 }
-/* line 719, ../scss/style.scss */
+/* line 728, ../scss/style.scss */
 .titlebar .back {
   width: 20px;
   margin: 18px 0 0 10px;
   position: absolute;
 }
-/* line 725, ../scss/style.scss */
+/* line 734, ../scss/style.scss */
 .titlebar .share {
   width: 25px;
   position: absolute;
   right: 0;
   margin: -27px 10px 0 280px;
 }
-/* line 735, ../scss/style.scss */
+/* line 744, ../scss/style.scss */
 .titlebar #myInput {
   width: 30px;
   -webkit-transition: width 0.3s ease-in-out;
 }
-/* line 739, ../scss/style.scss */
+/* line 748, ../scss/style.scss */
 .titlebar #myInput:focus {
   width: 100%;
   -webkit-transition: width 0.5s ease-in-out;
 }
 
-/* line 745, ../scss/style.scss */
+/* line 754, ../scss/style.scss */
 .article-container {
   padding-top: 65px;
   /* unvisited link */
@@ -733,27 +742,27 @@ button, input, select, textarea {
   /* mouse over link */
   /* selected link */
 }
-/* line 749, ../scss/style.scss */
+/* line 758, ../scss/style.scss */
 .article-container a:link {
   color: #000;
   text-decoration: none;
 }
-/* line 755, ../scss/style.scss */
+/* line 764, ../scss/style.scss */
 .article-container a:visited {
   color: #000;
   text-decoration: none;
 }
-/* line 761, ../scss/style.scss */
+/* line 770, ../scss/style.scss */
 .article-container a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 767, ../scss/style.scss */
+/* line 776, ../scss/style.scss */
 .article-container a:active {
   color: #000;
   text-decoration: none;
 }
-/* line 773, ../scss/style.scss */
+/* line 782, ../scss/style.scss */
 .article-container .article-list {
   height: 100%;
   		/*.single {

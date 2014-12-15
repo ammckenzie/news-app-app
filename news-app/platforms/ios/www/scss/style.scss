@@ -16,6 +16,10 @@ body {
 	font-family:'Avenir Next', Helvetica, Arial, sans-serif;
 }
 
+.refresh-button {
+	display:none;
+}
+
  button, input, select, textarea {
         font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
     }
@@ -34,6 +38,11 @@ body {
 	z-index: 999999;
 	color:#fff;
 	text-align: center;
+
+	.loadingtext {
+
+		margin-top:10px;
+	}
 }
 
 .item{

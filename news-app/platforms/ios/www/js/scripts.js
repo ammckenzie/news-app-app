@@ -112,20 +112,33 @@ function reviewChecks() {
         var cbox2 = 0;
     } 
 
+      if ($('#tag1').is(':checked')) {
+        var tag1 = 1;
+    } else {
+        var tag1 = 0;
+    } 
+
+    if ($('#tag2').is(':checked')) {
+        var tag2 = 1;
+    } else {
+        var tag2 = 0;
+    } 
+
     // Pass the sites that are toggled to rsstest.php
-    var items = $("#feed_results .chunk").size(); // Test Num Articles
+    // var items = $("#feed_results .chunk").size(); // Test Num Articles
     var request = $.ajax({
             
             // url: "http://localhost:8888/news-app-app/test.php",
-            url: "http://localhost:8888/news-app-app/rsstest.php?more=" + items + "&site1=" + cbox1 + "&site2=" + cbox2,
+            url: "http://localhost:8888/news-app-app/rsstest.php?site1=" + cbox1 + "&site2=" + cbox2 + "&tag1=" + tag1 + "&tag2=" + tag2,
             type: "GET", //SEND DATA (or post it)           
             dataType: "html"
         });
 
         request.done(function(msg) {
             $("#feed_results").html(msg);  
-            // alert(msg);       
-            $('.loading').hide(); 
+            // alert(tag1,tag2);       
+            $('.loading').hide();
+            $('.refresh-button').show(); 
         });
 
         request.fail(function(jqXHR, textStatus) {
@@ -222,6 +235,10 @@ $(document).ready(function() {
             reviewChecks();
        });
 
+        $('.refresh-button').click(function() {
+            $('.loading').show(); 
+            reviewChecks();
+        });
 
         /* Search Bar JS */
 
