@@ -101,7 +101,7 @@ function shorten($string, $length)
 			<p><?php echo $feed->error; ?></p>
 			<?php endif; ?>
 	 	 
-			<?php foreach ($feed->get_items() as $item): ?>
+			<?php foreach ($feed->get_items(0,10) as $item): ?>
 
 
 	 		
