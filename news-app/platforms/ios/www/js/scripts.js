@@ -138,7 +138,7 @@ function reviewChecks() {
             $("#feed_results").html(msg);  
             // alert(tag1,tag2);       
             $('.loading').hide();
-            $('.refresh-button').show(); 
+            // $('.refresh-button').show(); 
         });
 
         request.fail(function(jqXHR, textStatus) {
