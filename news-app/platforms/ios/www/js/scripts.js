@@ -70,11 +70,15 @@ function onLoad() {
 app.initialize();
 
 
+// function getFeedItemCount() {
+//     window.items = $("#feed_results .chunk").size();
+// }
 
 
 // GET FEEDS - PASS to feeds.html
 function myCall() {
         var request = $.ajax({
+
             // url: "http://localhost:8888/news-app-app/test.php",
             url: "http://localhost:8888/news-app-app/rsstest.php",
             type: "GET",  // GET DATA          
@@ -109,10 +113,11 @@ function reviewChecks() {
     } 
 
     // Pass the sites that are toggled to rsstest.php
+    var items = $("#feed_results .chunk").size(); // Test Num Articles
     var request = $.ajax({
             
             // url: "http://localhost:8888/news-app-app/test.php",
-            url: "http://localhost:8888/news-app-app/rsstest.php?site1=" + cbox1 + "&site2=" + cbox2,
+            url: "http://localhost:8888/news-app-app/rsstest.php?more=" + items + "&site1=" + cbox1 + "&site2=" + cbox2,
             type: "GET", //SEND DATA (or post it)           
             dataType: "html"
         });
@@ -129,6 +134,26 @@ function reviewChecks() {
 }
 
 
+function loadMoreFeedItems() {
+    
+    var items = $("#feed_results .chunk").size(); // Test Num Articles
+    var totalItemsPlus = items + 10;
+    var request = $.ajax({
+            url: "http://localhost:8888/news-app-app/rsstest.php?more=" + totalItemsPlus,
+            type: "GET", //SEND DATA (or post it)           
+            dataType: "html"
+        });
+
+        request.done(function(msg) {
+            $("#feed_results").html(msg);  
+            // alert(msg);       
+            $('.loading').hide(); 
+        });
+
+        request.fail(function(jqXHR, textStatus) {
+            alert( "Request failed: " + textStatus );
+        });
+}
 
 // All Other Stuff that fires when the page loads
 $(document).ready(function() {

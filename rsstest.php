@@ -1,10 +1,11 @@
 <?php
 
 //GET RSS FEEDS FROM TOGGLES THAT ARE ON and Build Variables
-
 $s1 = $_GET['site1'];
 $s2 = $_GET['site2'];
 
+// Get More Results Intiger
+$more= $_GET['more'] + 10;
 
 // Include the SimplePie library
 // For 1.0-1.2:
@@ -100,8 +101,10 @@ function shorten($string, $length)
 			<?php if ($feed->error): ?>
 			<p><?php echo $feed->error; ?></p>
 			<?php endif; ?>
-	 	 
-			<?php foreach ($feed->get_items(0,10) as $item): ?>
+	 	 	<?php var_dump($more); ?>
+			<?php 
+				$feedItemCount = $more + 10;
+				foreach ($feed->get_items(0,$feedItemCount) as $item): ?>
 
 
 	 		
