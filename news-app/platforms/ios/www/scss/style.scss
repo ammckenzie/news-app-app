@@ -20,7 +20,21 @@ body {
 	z-index: 999999;
 	color:#fff;
 	text-align: center;
+}
 
+.item{
+	width:100%;
+	font-family:'Avenir Next', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: visible;
+/*	text-overflow: ellipsis;*/
+}
+
+.toggle{
+	margin-right:-10px;
 }
 
 .article-iframe {
@@ -291,7 +305,7 @@ body {
 
 	.menutags{
 		width:95%;
-		height:340px;
+		height:100px;
 		background-color: #eee;
 		margin-top:-10px;
 		margin-left:5px;
@@ -434,7 +448,7 @@ body {
 
 	.menusites{
 		width:95%;
-		height:340px;
+		height:100px;
 		background-color: #eee;
 		margin-top:-10px;
 		margin-left:5px;
