@@ -98,7 +98,7 @@ body {
 
 #site_container{
 	width:100%;
-	padding-top: 75px;
+	padding-top: 70px;
 	font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
 
 	a:link {
@@ -131,7 +131,7 @@ body {
 			box-shadow: 0px 1px 1px #888888;
 			padding-top:10px;
 			padding-right:20px;
-			margin:0 0 10px 0;
+			margin:0 0 5px 0;
 
 			.article-image {
 				margin-left:-10px
@@ -146,8 +146,9 @@ body {
 		p.articletitle {
 			font-weight: 500;
 			font-size: 14px;
-			margin-top:1px;
-			margin-left:20px
+			margin-top:5px;
+			margin-left:35px;
+
 			}
 
 		p.textcontent{
@@ -157,18 +158,19 @@ body {
 			}
 
 		p.footnotetext{
-			margin-left:20px
+			margin-left:35px;
+
 		}
 
 		img{
 			/*float:left;*/
-			width:80px;
-			min-height: 70px;
+			width:90px;
+			height: 82px;
 			/*max-height: 80px;*/
-			margin-left:0px;
-			margin-right:15px;
+			margin-left:-2px;
+			margin-right:25px;
 			/*padding-top:5px;*/
-			margin-top:auto;
+			margin-top:2px;
 			margin-bottom:auto;
 			/*height:auto !important;*/
 			border-radius: 5px;
@@ -182,13 +184,13 @@ body {
 
 		.article {
 		
-			min-height:90px;
-			max-height:200px;
+			height:90px;
 		}
 
 		small.footnote {
 			position: absolute;
-			bottom:8px;
+			bottom:-10px;
+			/*margin-top:50px;*/
 		}
 
 
@@ -565,26 +567,25 @@ body {
 	width:100%;
 
 	.title {
-		font-size:19px;
-		font-weight:bold;
+		font-size:22px;
 		text-align:center;
-		padding-top:15px;
+		padding-top:17px;
 		font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		color:#222;
+		font-weight: 200;
+		color:#000;
 	}
 
 	.login {
-		width: 30px;
-		margin: 12px 0 0 15px;
+		width: 28px;
+		margin: 13px 0 0 15px;
 		position:absolute;
 	}
 
 	.search {
-		width: 30px;
+		width: 25px;
 		position: absolute;
 		right: 0;
-		margin: -27px 10px 0 280px;
+		margin: -24px 12px 0 280px;
 	}
 
 	/* Search Bar */
@@ -650,12 +651,12 @@ body {
 					    border-color: #eee !important;
 					}
 
-					.searchslide {
+					/*.searchslide {
 					    position: absolute;
 					    left: 5px;
 					    top: 9px;
 					    right: 0;
-					    width: 25px;
+					    width: 20px;
 					}
 
 					.slid-left {
@@ -663,7 +664,7 @@ body {
 					}
 					.slid-right {
 					    left: 110px !important;
-					}
+					}*/
 
 
 	.back {
