@@ -170,29 +170,17 @@ body {
   margin-top: 5px;
   margin-left: 35px;
 }
-<<<<<<< HEAD
-/* line 154, ../scss/style.scss */
-=======
-/* line 174, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 175, ../scss/style.scss */
 #site_container .chunk p.textcontent {
   font-weight: 400;
   font-size: 13px;
   margin-top: auto;
 }
-<<<<<<< HEAD
-/* line 160, ../scss/style.scss */
-=======
-/* line 180, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 181, ../scss/style.scss */
 #site_container .chunk p.footnotetext {
   margin-left: 35px;
 }
-<<<<<<< HEAD
-/* line 165, ../scss/style.scss */
-=======
-/* line 184, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 186, ../scss/style.scss */
 #site_container .chunk img {
   /*float:left;*/
   width: 90px;
@@ -206,30 +194,18 @@ body {
   /*height:auto !important;*/
   border-radius: 5px;
 }
-<<<<<<< HEAD
-/* line 185, ../scss/style.scss */
-=======
-/* line 204, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 206, ../scss/style.scss */
 #site_container .chunk .article {
   height: 90px;
 }
-<<<<<<< HEAD
-/* line 190, ../scss/style.scss */
-=======
-/* line 210, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 211, ../scss/style.scss */
 #site_container .chunk small.footnote {
   position: absolute;
   bottom: -10px;
   /*margin-top:50px;*/
 }
 
-<<<<<<< HEAD
-/* line 204, ../scss/style.scss */
-=======
-/* line 223, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 225, ../scss/style.scss */
 .divideline {
   width: 95%;
   margin: 0 auto;
@@ -238,11 +214,7 @@ body {
   margin-top: 15px;
 }
 
-<<<<<<< HEAD
-/* line 212, ../scss/style.scss */
-=======
-/* line 231, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 233, ../scss/style.scss */
 .flyoutmenu {
   width: 70%;
   min-height: 100%;
@@ -254,11 +226,7 @@ body {
   z-index: 9;
   overflow: scroll;
 }
-<<<<<<< HEAD
-/* line 224, ../scss/style.scss */
-=======
-/* line 243, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 245, ../scss/style.scss */
 .flyoutmenu .done {
   width: 95%;
   height: 30px;
@@ -272,11 +240,7 @@ body {
   font-weight: 400;
   color: #FFF;
 }
-<<<<<<< HEAD
-/* line 238, ../scss/style.scss */
-=======
-/* line 257, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 259, ../scss/style.scss */
 .flyoutmenu .tags {
   width: 95%;
   height: 30px;
@@ -293,11 +257,7 @@ body {
   border-radius: 0px;
   border-color: #aaa;
 }
-<<<<<<< HEAD
-/* line 254, ../scss/style.scss */
-=======
-/* line 273, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 275, ../scss/style.scss */
 .flyoutmenu .tags .tags-add {
   width: 20px;
   float: left;
@@ -305,11 +265,7 @@ body {
   background-size: 100%;
   height: 20px;
 }
-<<<<<<< HEAD
-/* line 261, ../scss/style.scss */
-=======
-/* line 280, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 282, ../scss/style.scss */
 .flyoutmenu .tags .tags-minus {
   width: 15px;
   float: left;
@@ -318,11 +274,7 @@ body {
   height: 15px;
   margin-top: 2px;
 }
-<<<<<<< HEAD
-/* line 271, ../scss/style.scss */
-=======
-/* line 290, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 292, ../scss/style.scss */
 .flyoutmenu .menutags {
   width: 95%;
   height: 340px;
@@ -330,58 +282,34 @@ body {
   margin-top: -10px;
   margin-left: 5px;
 }
-<<<<<<< HEAD
-/* line 278, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 .flyoutmenu .menutags .input-group {
   width: 95%;
 }
-/* line 282, ../scss/style.scss */
-=======
-/* line 297, ../scss/style.scss */
-.flyoutmenu .menutags .input-group {
-  width: 95%;
-}
-/* line 301, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 303, ../scss/style.scss */
 .flyoutmenu .menutags .form-control {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
-/* line 289, ../scss/style.scss */
-=======
-/* line 308, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 310, ../scss/style.scss */
 .flyoutmenu .menutags .input-group .form-control:last-child, .flyoutmenu .menutags .input-group-addon:last-child, .flyoutmenu .menutags .input-group-btn:last-child > .btn, .flyoutmenu .menutags .input-group-btn:last-child > .btn-group > .btn, .flyoutmenu .menutags .input-group-btn:last-child > .dropdown-toggle, .flyoutmenu .menutags .input-group-btn:first-child > .btn:not(:first-child), .flyoutmenu .menutags .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-<<<<<<< HEAD
-/* line 294, ../scss/style.scss */
-=======
-/* line 313, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 315, ../scss/style.scss */
 .flyoutmenu .menutags .input-group .form-control:first-child, .flyoutmenu .menutags .input-group-addon:first-child, .flyoutmenu .menutags .input-group-btn:first-child > .btn, .flyoutmenu .menutags .input-group-btn:first-child > .btn-group > .btn, .flyoutmenu .menutags .input-group-btn:first-child > .dropdown-toggle, .flyoutmenu .menutags .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .flyoutmenu .menutags .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-<<<<<<< HEAD
-/* line 299, ../scss/style.scss */
-=======
-/* line 318, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 320, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem {
   width: 95%;
   height: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
-<<<<<<< HEAD
-/* line 305, ../scss/style.scss */
-=======
-/* line 324, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 326, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem .sitename {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -390,30 +318,18 @@ body {
   margin-top: 5px;
   margin-left: 5px;
 }
-<<<<<<< HEAD
-/* line 314, ../scss/style.scss */
-=======
-/* line 333, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 335, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem .onoffswitch {
   float: right;
   margin-right: 5px;
 }
-<<<<<<< HEAD
-/* line 319, ../scss/style.scss */
-=======
-/* line 338, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 340, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle {
   max-height: 0;
   max-width: 0;
   opacity: 0;
 }
-<<<<<<< HEAD
-/* line 325, ../scss/style.scss */
-=======
-/* line 344, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 346, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle + label {
   display: block;
   position: relative;
@@ -423,11 +339,7 @@ body {
   width: 50px;
   border-radius: 15px;
 }
-<<<<<<< HEAD
-/* line 335, ../scss/style.scss */
-=======
-/* line 354, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 356, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle + label:before {
   content: "";
   position: absolute;
@@ -442,11 +354,7 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-<<<<<<< HEAD
-/* line 350, ../scss/style.scss */
-=======
-/* line 369, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 371, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle + label:after {
   content: "";
   position: absolute;
@@ -462,29 +370,17 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-<<<<<<< HEAD
-/* line 366, ../scss/style.scss */
-=======
-/* line 385, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 387, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle:checked + label:before {
   width: 50px;
   background: #13bf11;
 }
-<<<<<<< HEAD
-/* line 371, ../scss/style.scss */
-=======
-/* line 390, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 392, ../scss/style.scss */
 .flyoutmenu .menutags .singleitem input#toggle:checked + label:after {
   left: 30px;
   box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-<<<<<<< HEAD
-/* line 380, ../scss/style.scss */
-=======
-/* line 399, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 401, ../scss/style.scss */
 .flyoutmenu .sites {
   width: 95%;
   height: 30px;
@@ -501,11 +397,7 @@ body {
   border-color: #aaa;
   border-radius: 0px;
 }
-<<<<<<< HEAD
-/* line 396, ../scss/style.scss */
-=======
-/* line 415, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 417, ../scss/style.scss */
 .flyoutmenu .sites .sites-add {
   width: 20px;
   float: left;
@@ -513,11 +405,7 @@ body {
   background-size: 100%;
   height: 20px;
 }
-<<<<<<< HEAD
-/* line 404, ../scss/style.scss */
-=======
-/* line 423, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 425, ../scss/style.scss */
 .flyoutmenu .sites .sites-minus {
   width: 15px;
   float: left;
@@ -526,11 +414,7 @@ body {
   height: 15px;
   margin-top: 2px;
 }
-<<<<<<< HEAD
-/* line 414, ../scss/style.scss */
-=======
-/* line 433, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 435, ../scss/style.scss */
 .flyoutmenu .menusites {
   width: 95%;
   height: 340px;
@@ -538,58 +422,34 @@ body {
   margin-top: -10px;
   margin-left: 5px;
 }
-<<<<<<< HEAD
-/* line 422, ../scss/style.scss */
+/* line 443, ../scss/style.scss */
 .flyoutmenu .menusites .input-group {
   width: 95%;
 }
-/* line 426, ../scss/style.scss */
-=======
-/* line 441, ../scss/style.scss */
-.flyoutmenu .menusites .input-group {
-  width: 95%;
-}
-/* line 445, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 447, ../scss/style.scss */
 .flyoutmenu .menusites .form-control {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
-/* line 433, ../scss/style.scss */
-=======
-/* line 452, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 454, ../scss/style.scss */
 .flyoutmenu .menusites .input-group .form-control:last-child, .flyoutmenu .menusites .input-group-addon:last-child, .flyoutmenu .menusites .input-group-btn:last-child > .btn, .flyoutmenu .menusites .input-group-btn:last-child > .btn-group > .btn, .flyoutmenu .menusites .input-group-btn:last-child > .dropdown-toggle, .flyoutmenu .menusites .input-group-btn:first-child > .btn:not(:first-child), .flyoutmenu .menusites .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-<<<<<<< HEAD
-/* line 438, ../scss/style.scss */
-=======
-/* line 457, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 459, ../scss/style.scss */
 .flyoutmenu .menusites .input-group .form-control:first-child, .flyoutmenu .menusites .input-group-addon:first-child, .flyoutmenu .menusites .input-group-btn:first-child > .btn, .flyoutmenu .menusites .input-group-btn:first-child > .btn-group > .btn, .flyoutmenu .menusites .input-group-btn:first-child > .dropdown-toggle, .flyoutmenu .menusites .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .flyoutmenu .menusites .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-<<<<<<< HEAD
-/* line 443, ../scss/style.scss */
-=======
-/* line 462, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 464, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem {
   width: 95%;
   height: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
-<<<<<<< HEAD
-/* line 449, ../scss/style.scss */
-=======
-/* line 468, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 470, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem .sitename {
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -598,30 +458,18 @@ body {
   margin-top: 5px;
   margin-left: 5px;
 }
-<<<<<<< HEAD
-/* line 458, ../scss/style.scss */
-=======
-/* line 477, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 479, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem .onoffswitch {
   float: right;
   margin-right: 5px;
 }
-<<<<<<< HEAD
-/* line 463, ../scss/style.scss */
-=======
-/* line 482, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 484, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle {
   max-height: 0;
   max-width: 0;
   opacity: 0;
 }
-<<<<<<< HEAD
-/* line 469, ../scss/style.scss */
-=======
-/* line 488, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 490, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle + label {
   display: block;
   position: relative;
@@ -631,11 +479,7 @@ body {
   width: 50px;
   border-radius: 15px;
 }
-<<<<<<< HEAD
-/* line 479, ../scss/style.scss */
-=======
-/* line 498, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 500, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle + label:before {
   content: "";
   position: absolute;
@@ -650,11 +494,7 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-<<<<<<< HEAD
-/* line 494, ../scss/style.scss */
-=======
-/* line 513, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 515, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle + label:after {
   content: "";
   position: absolute;
@@ -670,29 +510,17 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-<<<<<<< HEAD
-/* line 510, ../scss/style.scss */
-=======
-/* line 529, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 531, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle:checked + label:before {
   width: 50px;
   background: #13bf11;
 }
-<<<<<<< HEAD
-/* line 515, ../scss/style.scss */
-=======
-/* line 534, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 536, ../scss/style.scss */
 .flyoutmenu .menusites .singleitem input#toggle:checked + label:after {
   left: 30px;
   box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-<<<<<<< HEAD
-/* line 525, ../scss/style.scss */
-=======
-/* line 544, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 546, ../scss/style.scss */
 .flyoutmenu .loginsmtext {
   font-size: 14px;
   font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
@@ -700,32 +528,20 @@ body {
   margin-left: 5px;
   margin-top: 15px;
 }
-<<<<<<< HEAD
-/* line 533, ../scss/style.scss */
-=======
-/* line 552, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 554, ../scss/style.scss */
 .flyoutmenu .smcontainer {
   width: 100%;
   margin-left: 5px;
   margin-top: 5px;
 }
-<<<<<<< HEAD
-/* line 539, ../scss/style.scss */
-=======
-/* line 558, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 560, ../scss/style.scss */
 .flyoutmenu .smicon {
   width: 35px;
   margin-right: 2px;
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-/* line 548, ../scss/style.scss */
-=======
-/* line 567, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 569, ../scss/style.scss */
 .grayout {
   width: 100%;
   min-height: 100%;
@@ -739,11 +555,7 @@ body {
 }
 
 /* Title Bar */
-<<<<<<< HEAD
-/* line 560, ../scss/style.scss */
-=======
-/* line 579, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 581, ../scss/style.scss */
 .titlebar {
   background: #fff;
   padding-top: 15px;
@@ -769,11 +581,7 @@ body {
   					}*/
   /* expanding input CSS only */
 }
-<<<<<<< HEAD
-/* line 569, ../scss/style.scss */
-=======
-/* line 588, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 590, ../scss/style.scss */
 .titlebar .title {
   font-size: 22px;
   text-align: center;
@@ -782,32 +590,20 @@ body {
   font-weight: 200;
   color: #000;
 }
-<<<<<<< HEAD
-/* line 578, ../scss/style.scss */
-=======
-/* line 598, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 599, ../scss/style.scss */
 .titlebar .login {
   width: 28px;
   margin: 13px 0 0 15px;
   position: absolute;
 }
-<<<<<<< HEAD
-/* line 584, ../scss/style.scss */
-=======
-/* line 604, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 605, ../scss/style.scss */
 .titlebar .search {
   width: 25px;
   position: absolute;
   right: 0;
   margin: -24px 12px 0 280px;
 }
-<<<<<<< HEAD
-/* line 593, ../scss/style.scss */
-=======
-/* line 613, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 614, ../scss/style.scss */
 .titlebar .wrapper {
   position: relative;
   overflow: hidden;
@@ -817,11 +613,7 @@ body {
   margin-left: 70px;
   /*border-radius: 5px;*/
 }
-<<<<<<< HEAD
-/* line 602, ../scss/style.scss */
-=======
-/* line 622, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 623, ../scss/style.scss */
 .titlebar #search-text {
   /*  position: float;
     bottom: 10px;
@@ -830,19 +622,11 @@ body {
     color: #DDDDDD;*/
   transition: .45s;
 }
-<<<<<<< HEAD
-/* line 611, ../scss/style.scss */
+/* line 632, ../scss/style.scss */
 .titlebar .search-transition {
   opacity: 0.0;
 }
-/* line 615, ../scss/style.scss */
-=======
-/* line 631, ../scss/style.scss */
-.titlebar .search-transition {
-  opacity: 0.0;
-}
-/* line 635, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 636, ../scss/style.scss */
 .titlebar #slide-left {
   position: absolute;
   /*background: #BDB5C2;*/
@@ -854,19 +638,11 @@ body {
   left: 205px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 626, ../scss/style.scss */
+/* line 647, ../scss/style.scss */
 .titlebar .slide-left-secondary {
   left: 75px !important;
 }
-/* line 629, ../scss/style.scss */
-=======
-/* line 646, ../scss/style.scss */
-.titlebar .slide-left-secondary {
-  left: 75px !important;
-}
-/* line 649, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 650, ../scss/style.scss */
 .titlebar #slide-right {
   position: absolute;
   /*background: #F9F7FA;*/
@@ -879,11 +655,7 @@ body {
   text-align: center;
   border-left: 1px solid black;
 }
-<<<<<<< HEAD
-/* line 641, ../scss/style.scss */
-=======
-/* line 661, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 662, ../scss/style.scss */
 .titlebar input {
   position: absolute;
   left: 35px;
@@ -896,67 +668,31 @@ body {
   border-width: 1px;
   border-color: #eee !important;
 }
-<<<<<<< HEAD
-/* line 670, ../scss/style.scss */
-=======
-/* line 674, ../scss/style.scss */
-.titlebar .searchslide {
-  position: absolute;
-  left: 5px;
-  top: 9px;
-  right: 0;
-  width: 25px;
-}
-/* line 682, ../scss/style.scss */
-.titlebar .slid-left {
-  left: 50px !important;
-}
-/* line 685, ../scss/style.scss */
-.titlebar .slid-right {
-  left: 110px !important;
-}
-/* line 690, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 691, ../scss/style.scss */
 .titlebar .back {
   width: 20px;
   margin: 18px 0 0 10px;
   position: absolute;
 }
-<<<<<<< HEAD
-/* line 676, ../scss/style.scss */
-=======
-/* line 696, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 697, ../scss/style.scss */
 .titlebar .share {
   width: 25px;
   position: absolute;
   right: 0;
   margin: -27px 10px 0 280px;
 }
-<<<<<<< HEAD
-/* line 686, ../scss/style.scss */
-=======
-/* line 706, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 707, ../scss/style.scss */
 .titlebar #myInput {
   width: 30px;
   -webkit-transition: width 0.3s ease-in-out;
 }
-<<<<<<< HEAD
-/* line 690, ../scss/style.scss */
-=======
-/* line 710, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 711, ../scss/style.scss */
 .titlebar #myInput:focus {
   width: 100%;
   -webkit-transition: width 0.5s ease-in-out;
 }
 
-<<<<<<< HEAD
-/* line 696, ../scss/style.scss */
-=======
-/* line 716, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 717, ../scss/style.scss */
 .article-container {
   padding-top: 65px;
   /* unvisited link */
@@ -964,47 +700,27 @@ body {
   /* mouse over link */
   /* selected link */
 }
-<<<<<<< HEAD
-/* line 700, ../scss/style.scss */
-=======
-/* line 720, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 721, ../scss/style.scss */
 .article-container a:link {
   color: #000;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 706, ../scss/style.scss */
-=======
-/* line 726, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 727, ../scss/style.scss */
 .article-container a:visited {
   color: #000;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 712, ../scss/style.scss */
-=======
-/* line 732, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 733, ../scss/style.scss */
 .article-container a:hover {
   color: #000;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 718, ../scss/style.scss */
-=======
-/* line 738, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 739, ../scss/style.scss */
 .article-container a:active {
   color: #000;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 724, ../scss/style.scss */
-=======
-/* line 744, ../scss/style.scss */
->>>>>>> FETCH_HEAD
+/* line 745, ../scss/style.scss */
 .article-container .article-list {
   height: 100%;
   		/*.single {
