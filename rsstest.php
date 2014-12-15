@@ -5,7 +5,7 @@ $s1 = $_GET['site1'];
 $s2 = $_GET['site2'];
 
 // Get More Results Intiger
-$more= $_GET['more'] + 10;
+//$more= $_GET['more'] + 10;
 
 // Include the SimplePie library
 // For 1.0-1.2:
@@ -106,8 +106,8 @@ function shorten($string, $length)
 			<?php endif; ?>
 	 	 	<?php //var_dump($more); ?>
 			<?php 
-				$feedItemCount = $more;
-				foreach ($feed->get_items(0,$feedItemCount) as $item): ?>
+				//$feedItemCount = $more;
+				foreach ($feed->get_items() as $item): ?>
 
 
 	 		
@@ -150,7 +150,7 @@ function shorten($string, $length)
 					} else {
 						echo $item->get_title();
 					}
-						?>
+					?>
 						</a>
 					</p>
 
