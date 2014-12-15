@@ -1,4 +1,11 @@
 <?php
+
+//GET RSS FEEDS FROM TOGGLES THAT ARE ON and Build Variables
+
+$s1 = $_GET['site1'];
+$s2 = $_GET['site2'];
+
+
 // Include the SimplePie library
 // For 1.0-1.2:
 #require_once('simplepie.inc');
@@ -9,11 +16,27 @@ require_once('simplepie/autoloader.php');
 $feed = new SimplePie();
  
 // Instead of only passing in one feed url, we'll pass in an array of two or more
-$feed->set_feed_url(array(
-	'http://www.huffingtonpost.com/feeds/verticals/arts/index.xml',
-	'http://rss.cnn.com/rss/cnn_tech.rss'
-	// 'http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml'
-));
+
+if($s1 == 1 && $s2 == 0) {
+	$feed->set_feed_url(array(
+		'http://www.huffingtonpost.com/feeds/verticals/arts/index.xml'
+	));
+} elseif ($s1 == 1 && $s2 == 1) {
+	$feed->set_feed_url(array(
+		'http://rss.cnn.com/rss/cnn_tech.rss',
+		'http://www.huffingtonpost.com/feeds/verticals/arts/index.xml'
+	));
+} elseif ($s1 == 0 && $s2 == 1) {
+	$feed->set_feed_url(array(
+		'http://rss.cnn.com/rss/cnn_tech.rss'
+	));
+} else {
+	echo "<div class='no-feed-message'>";
+	echo "Please Toggle A Feed";
+	echo "</div>";
+}
+
+
  
 // We'll use favicon caching here (Optional)
 $feed->set_favicon_handler('handler_image.php');
@@ -70,15 +93,14 @@ function shorten($string, $length)
 
 <div id="site">
 
+
+
 		<div id="site_container" class="wrap">
  
 			<?php if ($feed->error): ?>
 			<p><?php echo $feed->error; ?></p>
 			<?php endif; ?>
-	 
-
-
-	 
+	 	 
 			<?php foreach ($feed->get_items() as $item): ?>
 
 

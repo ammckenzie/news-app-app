@@ -77,7 +77,7 @@ function myCall() {
         var request = $.ajax({
             // url: "http://localhost:8888/news-app-app/test.php",
             url: "http://localhost:8888/news-app-app/rsstest.php",
-            type: "GET",            
+            type: "GET",  // GET DATA          
             dataType: "html"
         });
 
@@ -94,11 +94,38 @@ function myCall() {
 
 
 function reviewChecks() {
+    // Note: There is a better way to do this that would be done for real-life production
+    
     if ($('#cbox1').is(':checked')) {
-        alert('cbox 1 checked');
+        var cbox1 = 1;
     } else {
-        alert('cbox 1 not checked');
-    } // Boolean true
+        var cbox1 = 0;
+    } 
+
+    if ($('#cbox2').is(':checked')) {
+        var cbox2 = 1;
+    } else {
+        var cbox2 = 0;
+    } 
+
+    // Pass the sites that are toggled to rsstest.php
+    var request = $.ajax({
+            
+            // url: "http://localhost:8888/news-app-app/test.php",
+            url: "http://localhost:8888/news-app-app/rsstest.php?site1=" + cbox1 + "&site2=" + cbox2,
+            type: "GET", //SEND DATA (or post it)           
+            dataType: "html"
+        });
+
+        request.done(function(msg) {
+            $("#feed_results").html(msg);  
+            // alert(msg);       
+            $('.loading').hide(); 
+        });
+
+        request.fail(function(jqXHR, textStatus) {
+            alert( "Request failed: " + textStatus );
+        });
 }
 
 
@@ -156,6 +183,7 @@ $(document).ready(function() {
         	$('.article-container').css('position','relative');
             $('.sites-add').removeClass('sites-minus');
             $('.tags-add').removeClass('tags-minus');
+            $('.loading').show(); 
             $('#feed_results').css('position','relative');
             reviewChecks();
        });
