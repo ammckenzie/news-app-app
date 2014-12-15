@@ -33,8 +33,11 @@ if($s1 == 1 && $s2 == 0) {
 	));
 } else {
 	echo "<div class='no-feed-message'>";
-	echo "Please Toggle A Feed";
+	echo "No Feeds Active";
+	echo "<p>&nbsp;</p><button class='btn btn-primary' onclick='activateFeedsBtn()'>Activate Feeds</button>";
 	echo "</div>";
+
+
 }
 
 
@@ -101,9 +104,9 @@ function shorten($string, $length)
 			<?php if ($feed->error): ?>
 			<p><?php echo $feed->error; ?></p>
 			<?php endif; ?>
-	 	 	<?php var_dump($more); ?>
+	 	 	<?php //var_dump($more); ?>
 			<?php 
-				$feedItemCount = $more + 10;
+				$feedItemCount = $more;
 				foreach ($feed->get_items(0,$feedItemCount) as $item): ?>
 
 

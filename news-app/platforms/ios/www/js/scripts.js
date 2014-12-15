@@ -137,9 +137,9 @@ function reviewChecks() {
 function loadMoreFeedItems() {
     
     var items = $("#feed_results .chunk").size(); // Test Num Articles
-    var totalItemsPlus = items + 10;
+    //var totalItemsPlus = items + 10;
     var request = $.ajax({
-            url: "http://localhost:8888/news-app-app/rsstest.php?more=" + totalItemsPlus,
+            url: "http://localhost:8888/news-app-app/rsstest.php?more=" + items,
             type: "GET", //SEND DATA (or post it)           
             dataType: "html"
         });
@@ -154,6 +154,13 @@ function loadMoreFeedItems() {
             alert( "Request failed: " + textStatus );
         });
 }
+
+
+function activateFeedsBtn() {
+            $('.grayout').fadeIn();
+            $('.flyoutmenu').animate({left:'100%'});
+            $('#feed_results').css('position','fixed');
+        }
 
 // All Other Stuff that fires when the page loads
 $(document).ready(function() {
@@ -199,6 +206,8 @@ $(document).ready(function() {
        	    $('.flyoutmenu').animate({left:'100%'});
         	$('#feed_results').css('position','fixed');
         });
+
+        
 
         $('.flyout-done').click(function() {
         	$('.grayout').fadeOut();
