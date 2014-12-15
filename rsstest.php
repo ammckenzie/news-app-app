@@ -143,8 +143,8 @@ function shorten($string, $length)
 					<?php 
 
 					$full_title = strlen($item->get_title());
-					$short_title = shorten($item->get_title(), 40);
-					$value = 40;
+					$short_title = shorten($item->get_title(), 26);
+					$value = 26;
 					if($full_title >= $value) {
 						echo $short_title;
 					} else {
@@ -177,7 +177,7 @@ function shorten($string, $length)
 
  					
 
-				<p class="footnotetext"><a href="<?php $feed = $item->get_feed(); echo $feed->get_permalink(); ?>"><?php $feed = $item->get_feed(); echo $feed->get_title(); ?></a><!-- Huffington Post --> | <?php echo $item->get_date('H'); ?> hours ago | Arts</p></small>
+				<p class="footnotetext"><?php echo $item->get_date('H'); ?> hours ago<!-- Huffington Post --> <br /> <a href="<?php $feed = $item->get_feed(); echo $feed->get_permalink(); ?>"><?php $feed = $item->get_feed(); echo $feed->get_title(); ?></a></p></small>
 
 
 				</div>	<!-- End 9 col -->

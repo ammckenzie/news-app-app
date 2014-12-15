@@ -9,11 +9,16 @@ body {
 .no-feed-message {
 	margin-top:200px;
 	text-align:center;
-	font-size:25px;
+	font-size:20px;
 	color:#666;
-	font-weight:bold;
+	font-weight:400;
 	text-shadow:1px 1px 2px #fff;
+	font-family:'Avenir Next', Helvetica, Arial, sans-serif;
 }
+
+ button, input, select, textarea {
+        font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+    }
 
 .loading {
 	background-image: url('../img/loading.gif');
@@ -273,7 +278,7 @@ body {
 		margin-top:20px;
 		margin-left:5px;
 		padding-top:4px;
-		font-size: 16px;
+		font-size: 15px;
 		font-family:'Avenir Next', Helvetica, Arial, sans-serif;
 		font-weight: 400;
 		color:#FFF;
@@ -288,7 +293,7 @@ body {
 		margin-left:5px;
 		padding-top:4px;
 		padding-right: 15%;
-		font-size: 16px;
+		font-size: 15px;
 		font-family:'Avenir Next', Helvetica, Arial, sans-serif;
 		font-weight: 400;
 		border: 1px solid;
@@ -430,7 +435,7 @@ body {
 		margin-left:5px;
 		padding-top:4px;
 		padding-right: 15%;
-		font-size: 16px;
+		font-size: 15px;
 		font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
 		font-weight: 400;
 		border: 1px solid;
